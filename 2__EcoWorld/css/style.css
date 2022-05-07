@@ -1,0 +1,140 @@
+/* Base */
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+*   {
+    box-sizing: border-box;
+}
+
+body    {
+    font-family: 'Rancho', cursive;
+}
+
+/* Reset */
+
+a   {
+    text-decoration: none;
+}
+
+/* Header */
+
+.cabecalho  {
+    font-size: 20px;
+
+    position: relative;
+}
+
+.cabecalho__logo    {
+    align-content: center;
+
+    background-color: #F8EFBA;
+
+    display: grid;
+
+    height: 160px;
+
+    justify-content: center;
+
+    width: 100%;
+}
+
+.cabecalho__logo img    {
+    width: 540px;
+}
+
+.cabecalho__menuNavegacao   {
+    align-content: center;
+
+    background-color: #6AD04C;
+
+    display: grid;
+
+    height: 40px;
+
+    width: 100%;
+}
+
+.menuNavegacao  {
+    align-content: center;
+
+    display: grid;
+
+    grid-auto-flow: column;
+
+    justify-content: center;
+}
+
+.menuNavegacao li a   {
+    align-content: center;
+
+    color: #F8EFBA;
+
+    /* cursor: pointer; */
+
+    display: grid;
+
+    font-size: 1em;
+
+    height: 40px;
+
+    justify-content: center;
+
+    width: 160px;
+}
+
+/* Sobpor */
+
+.secao__sobpor  {
+    background-color: #F0F0D6;
+
+    height: 40px;
+
+    width: 100%;
+}
+
+/* Main */
+
+.conteudoPrincipal  {
+    font-size: 20px;
+}
+
+.conteudoPrincipal__sobre, .conteudoPrincipal__transparencia    {
+    background-color: #F0F0D6;
+
+    height: 100vh;
+}
+
+.conteudoPrincipal__participe   {
+    background-color: #F8EFBA;
+
+    height: 100vh;
+}
+
+.conteudoPrincipal__sobre, .conteudoPrincipal__participe, .conteudoPrincipal__transparencia {
+    align-content: center;
+
+    color: #6AD04C;
+
+    display: grid;
+
+    font-size: 2em;
+
+    justify-content: center;
+}
+
+/* Positions */
+
+.position__absolute {
+    position: absolute;
+
+    right: 0;
+
+    top: 160px;
+}
+
+.position__fixed {
+    position: fixed;
+
+    right: 0;
+
+    top: 0;
+}
