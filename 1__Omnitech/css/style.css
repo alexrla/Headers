@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Taxi Driver";
+    src: url(../fonts/TaxiDriver.ttf);
+}
+
+/* Base */
+
+*   {
+    box-sizing: border-box;
+}
+
+body    {
+    font-family: "Taxi Driver";
+}
+
+/* Reset */
+
+a  {
+    text-decoration: none;
+}
+
+/* Header */
+
+.cabecalho  {
+    font-size: 18px;
+
+    position: fixed;
+
+    transition: all 0.4s ease-out;
+
+    width: 100%;
+
+    z-index: 1;
+}
+
+.cabecalho__color1  {
+    background-color: #2574A9;
+
+    height: 100px;
+}
+
+.cabecalho__color2  { 
+    background-color: #C5EFF7;
+
+    height: 80px;
+}
+
+.cabecalho__container   {
+    align-content: center;
+
+    display: grid;
+
+    grid-template-areas:    "logo ... menuNavegacao";
+
+    grid-template-columns: auto 1fr auto;
+
+    height: 100%;
+
+    margin: 0 auto;
+
+    max-width: 1200px;
+
+    padding: 0 60px;
+}
+
+.container__logo    {
+    grid-area: logo;
+}
+
+.container__logo img    {
+    transition: all 0.4s ease-out;
+}
+
+.logo__size1 img    {
+    width: 320px;
+}
+
+.logo__size2 img    {
+    width: 280px;
+}
+
+.logo__size1 img    {
+    width: 320px;
+}
+
+.container__menuNavegacao   {
+    align-content: center;
+
+    display: grid;
+
+    grid-area: menuNavegacao;
+}
+
+.menuNavegacao  {
+    display: grid;
+
+    grid-auto-flow: column;
+
+    grid-gap: 20px;
+
+    text-transform: uppercase;
+}
+
+.menuNavegacao li a {
+    transition: all 0.4s ease-out;
+}
+
+.fonte__sizeColor1 li a    {
+    color: #C5EFF7;
+
+    font-size: 1em;
+}
+
+.fonte__sizeColor2 li a    {
+    color: #2574A9;
+
+    font-size: 0.875em;
+}
+
+/* Seção sobpor */
+
+.secaoSobpor  {
+    background-color: #CAE1F1;
+
+    height: 100px;
+
+    width: 100%;
+}
+
+/* Main */
+
+.conteudoPrincipal  {
+    font-size: 20pxx;
+}
+
+.conteudoPrincipal__sobre, .conteudoPrincipal__portfolio, .conteudoPrincipal__produtos, .conteudoPrincipal__contato {
+    align-content: center;
+
+    color: #2574A9;
+
+    display: grid;
+
+    font-size: 2em;
+
+    height: 100vh;
+
+    justify-content: center;
+} 
+
+
+.conteudoPrincipal__sobre, .conteudoPrincipal__produtos   {
+    background-color: #CAE1F1;
+}
+
+.conteudoPrincipal__portfolio, .conteudoPrincipal__contato   {
+    background-color: #B7D5EB;
+}
