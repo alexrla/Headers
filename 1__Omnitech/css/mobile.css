@@ -1,0 +1,149 @@
+@media (max-width: 769px)   {
+    .cabecalho__colorHeight1  {
+        height: 80px;
+    }
+    
+    .cabecalho__colorHeight2  { 
+        height: 60px;
+    }
+
+    .cabecalho__container   {
+        grid-template-areas: "logo ... menuHamburguer";
+
+        padding: 0 20px;
+
+        position: relative;
+    }
+
+    .logo__size1 img    {
+        width: 220px;
+    }
+    
+    .logo__size2 img    {
+        width: 180px;
+    }
+
+    .menu   {
+        align-content: center;
+
+        display: grid;
+
+        grid-area: menuHamburguer;
+    }
+
+    .menu__hamburguer::before   {
+        content: "";
+
+        height: 100%;
+
+        left: 0;
+
+        position: absolute;
+
+        top: -8px;
+
+        transition: all 0.4s ease-out;
+
+        width: 100%;
+    }
+
+    .menu__hamburguer   {
+        height: 3px;
+
+        position: relative;
+
+        transition: all 0.4s ease-out;
+
+        width: 28px;
+    }
+
+    .menu__hamburguer::after   {
+        content: "";
+
+        height: 3px;
+
+        left: 0;
+
+        position: absolute;
+
+        top: 8px;
+
+        transition: all 0.4s ease-out;
+
+        width: 28px;
+    }
+
+    .container__menuNavegacao   {
+        background-color: #2980B9;
+
+        left: 0;
+
+        position: absolute;
+
+        transform: translateX(-100%);
+
+        transition: all 0.4s ease-out;
+
+        width: 100%;
+    }
+
+    .menuNavegacao {
+        grid-auto-flow: row;
+
+        grid-gap: 100px;
+
+        justify-content: center;
+    }
+
+    .menuNavegacao li {
+        text-align: center;
+    }
+    
+    .fonte__sizeColor2 li a    {
+        color: #C5EFF7;
+    
+        font-size: 1em;
+    }
+
+    /* Adicionar/remover com o JS */
+
+    .abrirMenu  {
+        transform: translateX(0);
+    }
+
+    .nav__size1 {
+        height: calc(100vh - 80px);
+
+        top: 80px;
+    }
+
+    .nav__size2 {
+        height: calc(100vh - 60px);
+        
+        top: 60px;
+    }
+
+    .menu__color1, .menu__color1::before, .menu__color1::after   {
+        background-color: #C5EFF7;
+    }
+
+    .menu__color2, .menu__color2::before, .menu__color2::after  {
+        background-color: #2574A9; 
+    }
+
+    .fechar {
+        transform: rotateZ(45deg);
+
+        width: 32px;
+    }
+
+    .fechar::before, .fechar::after {
+        top: 0;
+
+        transform: rotateZ(90deg);
+    }
+
+    .fechar::after {
+        width: 32px;
+    }
+}

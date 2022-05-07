@@ -33,13 +33,13 @@ a  {
     z-index: 1;
 }
 
-.cabecalho__color1  {
+.cabecalho__colorHeight1  {
     background-color: #2574A9;
 
     height: 100px;
 }
 
-.cabecalho__color2  { 
+.cabecalho__colorHeight2  { 
     background-color: #C5EFF7;
 
     height: 80px;
@@ -130,7 +130,7 @@ a  {
 /* Main */
 
 .conteudoPrincipal  {
-    font-size: 20pxx;
+    font-size: 20px;
 }
 
 .conteudoPrincipal__sobre, .conteudoPrincipal__portfolio, .conteudoPrincipal__produtos, .conteudoPrincipal__contato {
