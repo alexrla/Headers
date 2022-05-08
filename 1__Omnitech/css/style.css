@@ -101,8 +101,62 @@ a  {
     text-transform: uppercase;
 }
 
+.menuNavegacao li a::before {
+    background-color: currentColor;
+
+    content: "";
+
+    height: 2px;
+
+    left: 0;
+
+    position: absolute;
+
+    top: -10px;
+
+    transform: scaleX(0);
+
+    transform-origin: left;
+
+    transition: all 0.2s ease-out;
+
+    width: 100%;
+}
+
+.menuNavegacao li a:hover::before   {
+    transform: scaleX(1);
+}
+
 .menuNavegacao li a {
+    position: relative;
+
     transition: all 0.4s ease-out;
+}
+
+.menuNavegacao li a::after {
+    background-color: currentColor;
+
+    content: "";
+
+    height: 2px;
+
+    left: 0;
+
+    position: absolute;
+
+    bottom: -10px;
+
+    transform: scaleX(0);
+
+    transform-origin: right;
+
+    transition: all 0.2s ease-out;
+
+    width: 100%;
+}
+
+.menuNavegacao li a:hover::after   {
+    transform: scaleX(1);
 }
 
 .fonte__sizeColor1 li a    {
