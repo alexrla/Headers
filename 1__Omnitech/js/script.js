@@ -18,10 +18,10 @@ function mudarCabecalho() {
         $header.classList.remove("cabecalho__colorHeight1");
         $header.classList.add("cabecalho__colorHeight2");
 
-        $imagemLogo.firstElementChild.setAttribute("src", "./img/omnitech-logo-2.png");
+        // $imagemLogo.firstElementChild.setAttribute("src", "./img/omnitech-logo-2.png");
 
-        $imagemLogo.classList.remove("logo__size1");
-        $imagemLogo.classList.add("logo__size2");
+        $imagemLogo.classList.remove("logo__sizeColor1");
+        $imagemLogo.classList.add("logo__sizeColor2");
 
         $nav.classList.remove("nav__size1");
         $nav.classList.add("nav__size2");
@@ -36,10 +36,10 @@ function mudarCabecalho() {
         $header.classList.add("cabecalho__colorHeight1");
         $header.classList.remove("cabecalho__colorHeight2");
 
-        $imagemLogo.firstElementChild.setAttribute("src", "./img/omnitech-logo-1.png");
+        // $imagemLogo.firstElementChild.setAttribute("src", "./img/omnitech-logo-1.png");
 
-        $imagemLogo.classList.add("logo__size1");
-        $imagemLogo.classList.remove("logo__size2");
+        $imagemLogo.classList.add("logo__sizeColor1");
+        $imagemLogo.classList.remove("logo__sizeColor2");
 
         $nav.classList.add("nav__size1");
         $nav.classList.remove("nav__size2");

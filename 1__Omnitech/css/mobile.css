@@ -15,11 +15,11 @@
         position: relative;
     }
 
-    .logo__size1 img    {
+    .logo__size1 svg    {
         width: 220px;
     }
     
-    .logo__size2 img    {
+    .logo__size2 svg    {
         width: 180px;
     }
 
